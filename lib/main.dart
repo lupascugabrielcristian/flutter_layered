@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ratemy/screens/login_screen.dart';
 import 'package:ratemy/screens/presentation/app_theme.dart';
 
-import 'application/injectory.dart';
+import 'application/injector.dart';
 
 void main() {
   runApp(MyApp());

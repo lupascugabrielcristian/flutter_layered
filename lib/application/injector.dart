@@ -1,5 +1,7 @@
 import 'package:ratemy/screens/presentation/login_presentation.dart';
 
+import '../framework/api_service.dart';
+
 class Injector {
   static final Injector _instance = Injector._internal();
 
@@ -11,6 +13,9 @@ class Injector {
 
 
   // SERVICES
+  APIService getAPIService() {
+    return APIService();
+  }
 
   // MAPPERS
 
